@@ -13,15 +13,15 @@
                 <th>last name</th>
                 <th>avatar</th>
             </tr>
-            {%for i in data%}
+            <!-- {%for i in data%} -->
             <tr>
-                <td>{{i.get("id")}}</td>
-                <td>{{i.get("email")}}</td>
-                <td>{{i.get("first_name")}}</td>
-                <td>{{i.get("last_name")}}</td>
-                <td>{{i.get("avatar")}}</td>
+                <td>{{data.get("id")}}</td>
+                <td>{{data.get("email")}}</td>
+                <td>{{data.get("first_name")}}</td>
+                <td>{{data.get("last_name")}}</td>
+                <td>{{data.get("avatar")}}</td>
             </tr>
-            {%endfor%}
+            <!-- {%endfor%} -->
         </table>
     </body>
 </html>
